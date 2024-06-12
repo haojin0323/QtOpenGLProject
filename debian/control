@@ -1,0 +1,13 @@
+Source: qtopenglproject
+Section: misc
+Priority: optional
+Maintainer: hao jin <1565948255@qq.com>
+Build-Depends: debhelper (>= 9), qtbase5-dev, libgl1-mesa-dev, libglu1-mesa-dev, freeglut3-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/haojin0323/QtOpenGLProject
+
+Package: qtopenglproject
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Rendering a teapot based on Qt and OpenGL.
+
